@@ -1,6 +1,9 @@
 This project contains files that read in numerical values from a 16 character button pad. The code was
 intended to interface with the Nexys4 DDR board by Xilinx. I designed the code to work like 2 nested statemachines
 
+The .vhd Files correspond to the multiple source files that are linked as modules
+The .xdc file is the constraint file used to allow axcess to the reset button and the LED's on the Nexys 4
+
 The second picture shows the flag varible state machine logic, and the first pictures shows the two state machines for
 storing and checking the users input.
 
